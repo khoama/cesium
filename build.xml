@@ -139,13 +139,13 @@
 	<property name="npmPath" value="npm" />
 
 	<!-- Outputs -->
-	<property name="buildDirectory" location="Build" />
-	<property name="buildOutputDirectory" location="${buildDirectory}/Cesium" />
-	<property name="unminifiedOutputDirectory" location="${buildDirectory}/CesiumUnminified" />
-	<property name="buildDocumentationDirectory" location="${buildDirectory}/Documentation" />
+	<property name="buildDirectory" location="../../../dist/lib/cesium" />
+	<property name="buildOutputDirectory" location="${buildDirectory}/min" />
+	<property name="unminifiedOutputDirectory" location="${buildDirectory}/raw" />
+	<property name="buildDocumentationDirectory" location="${buildDirectory}/doc" />
 	<property name="buildDocumentationImagesDirectory" location="${buildDocumentationDirectory}/images" />
 	<property name="instrumentedDirectory" location="Instrumented" />
-	<property name="buildStubsDirectory" location="${buildDirectory}/Stubs" />
+	<property name="buildStubsDirectory" location="${buildDirectory}/stubs" />
 
 	<path id="javascriptClassPath">
 		<pathelement path="${rhinoJarPath}" />
